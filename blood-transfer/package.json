@@ -1,0 +1,17 @@
+{
+  "name": "blood-transfer",
+  "version": "1.0.0",
+  "description": "blood-transfer chaincode implementation for channel blood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fabric-chaincode-node server"
+  },
+  "keywords": [],
+  "author": "Madhav Arora",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-contract-api": "^2.5.2",
+    "fabric-shim": "^2.5.2"
+  }
+}
